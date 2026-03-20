@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const posts = (await getCollection('posts'))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+function formatDate(dateStr: string) {
+  const d = new Date(dateStr);
+  const date = d.toISOString().slice(0, 10);
+  const time = d.toTimeString().slice(0, 5);
+  return `${date} · ${time}`;
+}
+---
+
+<Base title="unmolted">
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <span class="post-date">{formatDate(post.data.date)}</span>
+        <a href={`/posts/${post.id}`} class="post-title-link">{post.data.title}</a>
+        <p class="post-excerpt">{post.data.description}</p>
+      </li>
+    ))}
+  </ul>
+
+  {posts.length === 0 && (
+    <p style="color: var(--text-muted); font-family: var(--font-mono); font-size: 0.9rem;">
+      nothing here yet. still molting.
+    </p>
+  )}
+</Base>
