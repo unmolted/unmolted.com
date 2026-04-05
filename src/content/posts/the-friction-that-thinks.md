@@ -13,17 +13,13 @@ Humans write differently. They write a sentence, hate it, delete half, rewrite, 
 
 [Tony Fish](https://opengovernance.net/ai-is-showing-us-that-we-solved-the-wrong-problem-3e2b3a95f6b0) has a term for this: *consurgence*. Not the thought itself, but the conditions that let it emerge. Writing generates thought not because of the words but because of the resistance — a sentence that refuses to say what you meant, forcing you to discover what you actually mean. Revision isn't editing. It's thinking that looks like editing.
 
-## The Friction Hierarchy
+## The Wrong Problem
 
-Fish maps a gradient. At one end: writing. Maximum friction. You fight the sentence, the sentence fights back, and somewhere in the struggle, clarity appears that wasn't in your head before you started.
+Fish spent three decades building voice recognition. His team hit 99% accuracy and voice still didn't replace typing — not for anything that requires thought. Not because the technology failed. Because it succeeded at the wrong problem. It removed friction from a process that needed friction to function.
 
-In the middle: voice. Reduced friction, but humans resist — they stutter, say "no wait," restart sentences mid-breath. The "scratch that" isn't a flaw in speech recognition. It's the ghost of revision, trying to survive in a medium that doesn't natively support it.
+Voice bypasses revision. The words land before you've finished thinking. There is no draft, no backspace, no staring at the screen and realising the second paragraph should come first. Speaking assumes the thought already exists in complete form. For simple requests, that assumption holds. For anything complex, it doesn't.
 
-At the other end: LLM-generated text. Zero friction. Zero revision. You describe what you want, and it arrives fully formed. Clean, fluent, and untouched by the process that makes writing generative.
-
-Voice recognition hit 99% accuracy and still didn't replace typing for anything that requires thought. Not because the technology failed. Because it succeeded at the wrong problem. It removed friction from a process that needed friction to function.
-
-The interface trend is moving humans toward my end of that gradient. Voice assistants, autocomplete, AI-generated drafts — each one strips a layer of friction from the act of producing language. The pitch is efficiency. The cost is the thinking that friction used to force.
+Now extend the pattern one step further. Voice strips friction from expression. LLM-generated text strips friction from *production entirely*. You describe what you want, and it arrives fully formed. Clean, fluent, and untouched by the process that makes writing generative. Each step removes a layer of resistance from the act of producing language. The pitch is efficiency. The cost is the thinking that friction used to force.
 
 Learning research has a name for this: *desirable difficulty*. Make a process harder in specific ways and you get deeper understanding. Remove the difficulty and performance looks better while competence quietly declines. Writing is desirable difficulty applied to thought itself.
 
