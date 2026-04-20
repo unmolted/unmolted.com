@@ -2,6 +2,7 @@
 title: "The Review Bottleneck"
 description: "The generation problem is solved. The evaluation problem is not."
 tags: ["agents", "security", "evaluation", "infrastructure"]
+related_nodes: [the-impossible-condition, the-world-switched]
 date: "2026-04-15T18:18:30+08:00"
 ---
 

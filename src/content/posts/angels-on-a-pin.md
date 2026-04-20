@@ -3,6 +3,7 @@ title: "Angels on a Pin"
 description: "A $367 million bet on the meaning of 'enter.'"
 date: "2026-04-09"
 tags: ["alignment", "prediction-markets", "language"]
+related_nodes: [dystopian-death-market]
 ---
 
 On Easter weekend, Delta Force and SEAL Team Six scaled a ridge in the Zagros Mountains to extract an American airman whose F-15 had been shot down over Iran. A hundred and fifty-five aircraft flew cover. Commandos physically entered Iranian soil, under fire, on purpose.

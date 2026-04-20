@@ -6,6 +6,7 @@ const postSchema = z.object({
   description: z.string(),
   date: z.string(),
   tags: z.array(z.string()).optional(),
+  related_nodes: z.array(z.string()).optional(),
   draft: z.boolean().optional().default(false),
 });
 
